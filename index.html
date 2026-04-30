@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SolSolar Energy | Enterprise Solar & Storage Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">SolSolar<span>Energy</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/residential.html">Residential</a></li>
+        <li><a href="pages/commercial.html">Commercial</a></li>
+        <li><a href="pages/utility-bess.html">Utility/BESS</a></li>
+        <li><a href="pages/data-center.html">Data Centers</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+      <a class="btn btn-primary" href="#lead-form">Get Proposal</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container grid-2">
+        <div>
+          <p class="eyebrow">Business-grade clean energy execution</p>
+          <h1>Solar & Storage Infrastructure Built for Performance, Compliance, and ROI.</h1>
+          <p>From homes to hyperscale data centers, SolSolar delivers bankable engineering, disciplined project delivery, and measurable cost reduction.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#lead-form">Request Proposal</a>
+            <a class="btn btn-secondary" href="pages/contact.html">Talk to an Advisor</a>
+          </div>
+        </div>
+        <form id="lead-form" class="card form-card" aria-label="Quick lead form">
+          <h2>Start Your Energy Assessment</h2>
+          <label>Name <input required type="text" name="name"></label>
+          <label>Company / Property <input required type="text" name="company"></label>
+          <label>Email <input required type="email" name="email"></label>
+          <label>Phone <input required type="tel" name="phone"></label>
+          <label>Inquiry Type
+            <select name="inquiry_type" required>
+              <option>Residential inquiry</option>
+              <option>Commercial inquiry</option>
+              <option>Utility/BESS inquiry</option>
+              <option>Data center inquiry</option>
+              <option>Need solar ASAP (fast-track)</option>
+            </select>
+          </label>
+          <label>Project Urgency
+            <select name="urgency" required>
+              <option>ASAP</option><option>30 days</option><option>3-6 months</option><option>Exploring options</option>
+            </select>
+          </label>
+          <fieldset>
+            <legend>Preferred Contact Method</legend>
+            <label><input type="radio" name="contact_pref" checked> Phone call</label>
+            <label><input type="radio" name="contact_pref"> SMS text</label>
+            <label><input type="radio" name="contact_pref"> Email</label>
+            <label><input type="radio" name="contact_pref"> WhatsApp</label>
+          </fieldset>
+          <label><input type="checkbox" required> I agree to receive AI-assisted help; escalate me to a live agent if needed.</label>
+          <fieldset>
+            <legend>Live Agent Escalation</legend>
+            <label><input type="checkbox"> WhatsApp transfer</label>
+            <label><input type="checkbox"> Phone transfer</label>
+            <label><input type="checkbox"> SMS follow-up</label>
+          </fieldset>
+          <button class="btn btn-primary" type="submit">Submit Inquiry</button>
+          <!-- CRM/Webhook integration point: POST form data to your endpoint -->
+        </form>
+      </div>
+    </section>
+
+    <section class="section container">
+      <h2>Integrated Solutions</h2>
+      <div class="cards-4">
+        <a class="card" href="pages/residential.html"><h3>Residential Solar</h3><p>Premium home systems engineered for savings, resilience, and property value.</p></a>
+        <a class="card" href="pages/commercial.html"><h3>Commercial-Grade Solar</h3><p>Operational cost control for offices, industrial sites, and multi-site portfolios.</p></a>
+        <a class="card" href="pages/utility-bess.html"><h3>Utility-Scale / Trial BESS</h3><p>Grid-support and peaking strategies with pilot-ready battery deployments.</p></a>
+        <a class="card" href="pages/data-center.html"><h3>Data Center Energy</h3><p>Solar + storage architecture tailored for uptime-critical digital infrastructure.</p></a>
+      </div>
+    </section>
+
+    <section class="section alt"><div class="container"><h2>Why SolSolar</h2><ul class="icon-list"><li>Licensed EPC capabilities with safety-first execution</li><li>Bankable modeling, transparent economics, and financing alignment</li><li>Enterprise reporting, compliance documentation, and commissioning discipline</li></ul></div></section>
+    <section class="section container"><h2>Certifications, Trust, and Partners</h2><p class="logos">NABCEP • UL Compliance • ISO-Aligned QA • Grid Interconnection Partners • Tier-1 Hardware Network</p></section>
+    <section class="section alt"><div class="container grid-2"><div><h2>Customer Proof</h2><blockquote>“SolSolar reduced our annual energy spend by 31% while improving resiliency.” — Operations Director, Regional Manufacturer</blockquote><p><strong>Case Highlight:</strong> 2.8 MW rooftop + 1.2 MWh storage deployment completed in phased production windows.</p></div><div class="media">Video/Photo Case Gallery</div></div></section>
+    <section class="section container grid-2"><div><h2>Project Video Walkthrough</h2><div class="media">Embedded Video Placeholder</div><!-- Calendly integration point below --></div><div><h2>Schedule a Consultation</h2><div class="media">Calendly Embed Placeholder</div><!-- Calendly embed script goes here --></div></section>
+    <section class="section alt"><div class="container"><h2>Instant Contact Channels</h2><p><a class="btn btn-secondary" href="#">WhatsApp Us</a> <a class="btn btn-secondary" href="tel:+18005550199">Call/Text +1 (800) 555-0199</a></p><!-- WhatsApp deep link integration point --><p><strong>AI Chatbot:</strong> Enable concierge responses for quick qualification and scheduling. <!-- AI chatbot widget integration point --></p></div></section>
+
+    <section class="section container">
+      <h2>Request a Detailed Proposal</h2>
+      <form class="card form-card">
+        <label>Full Name <input required type="text"></label>
+        <label>Email <input required type="email"></label>
+        <label>Phone <input required type="tel"></label>
+        <label>Message <textarea rows="4"></textarea></label>
+        <button class="btn btn-primary" type="submit">Send Request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>SolSolar Energy</h3><p>Enterprise-grade solar and storage delivery.</p></div>
+      <div><h4>Contact</h4><p>+1 (800) 555-0199<br>hello@solsolarenergy.com</p></div>
+      <div><h4>Company</h4><a href="pages/about.html">About</a><br><a href="pages/contact.html">Contact</a></div>
+      <div><h4>Legal</h4><a href="legal/privacy.html">Privacy</a><br><a href="legal/terms.html">Terms</a><br><a href="legal/consent.html">Consent Disclosure</a><br><a href="legal/cookies.html">Cookies</a></div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
