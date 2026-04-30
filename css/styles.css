@@ -78,7 +78,7 @@ h1{font-size:2.35rem;line-height:1.15}
 .site-footer{background:linear-gradient(130deg,#0f172a,#1e293b);color:#d4dae3;padding:2rem 0}
 .site-footer a{color:#d4dae3;text-decoration:none}
 .site-footer a:hover{color:#93c5fd}
-.footer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem}
 
 .page-hero{padding:3rem 0 2rem;background:#fff}
 .content-section{padding:2.5rem 0}
