@@ -106,3 +106,16 @@ h1{font-size:2.35rem;line-height:1.15}
   .grid-2,.cards-4,.footer-grid{grid-template-columns:1fr}
   h1{font-size:1.9rem}
 }
+
+
+.social-links{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:.4rem}
+.social-btn{display:inline-flex;align-items:center;justify-content:center;width:2.2rem;height:2.2rem;border-radius:999px;font-weight:800;font-size:.84rem;letter-spacing:.01em;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);color:#fff;transition:.18s}
+.social-btn:hover{transform:translateY(-2px);box-shadow:0 8px 16px rgba(0,0,0,.25);color:#fff}
+.social-btn.instagram{background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4)}
+.social-btn.facebook{background:#1877f2}
+.social-btn.linkedin{background:#0a66c2}
+.social-btn.tiktok{background:#111}
+.social-btn.whatsapp{background:#25d366}
+
+.trust-badges{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.7rem;margin-top:.7rem}
+.trust-badge{background:linear-gradient(180deg,#ffffff,#f5faf3);border:1px solid #cfe2ce;border-radius:.75rem;padding:.7rem .8rem;font-weight:700;color:#1f3223;text-align:center;box-shadow:0 6px 16px rgba(21,32,21,.07)}
